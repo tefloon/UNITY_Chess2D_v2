@@ -25,8 +25,6 @@ namespace ChessGUI
 		private Transform boardTransform;
 
 
-
-
 		void OnEnable()
 		{
 			BoardBackground = ColoursManager.Instance.ColorScheme.BoardBackground;
@@ -37,6 +35,7 @@ namespace ChessGUI
 
 		}
 
+		[Button]
 		public void SizeUp()
 		{
 			if (boardTransform &&  BoardScaleFactor < maxSize - sizeStep)
@@ -46,6 +45,7 @@ namespace ChessGUI
 			}
 		}
 
+		[Button]
 		public void SizeDown()
 		{
 			if (boardTransform && BoardScaleFactor > minSize)

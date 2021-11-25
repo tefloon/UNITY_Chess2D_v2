@@ -9,7 +9,6 @@ namespace ChessGUI
 		[SerializeField] private SpriteRenderer overlay;
 		[SerializeField] private SpriteRenderer highlight;
 
-		private bool isColored = false;
 		private SquareBackgroundColor currentColor = SquareBackgroundColor.NONE;
 
 		private ColoursManager palette;

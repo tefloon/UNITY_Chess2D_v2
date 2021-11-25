@@ -5,6 +5,8 @@ using Extensions;
 using BitStrap;
 using Bitboard = System.UInt64;
 
+using ChessDebug;
+
 namespace ChessGUI
 {
 	// 0000010001110000100011000011011110000111000000001100000001100000

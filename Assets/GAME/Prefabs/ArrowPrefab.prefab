@@ -177,5 +177,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60175cf24caa29b489dc5ff03371a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ArrowOrigin: {x: 0, y: 0, z: 0}
+  ArrowTarget: {x: 0, y: 0, z: 0}
+  bodyEnd: {x: 0, y: 0, z: 0}
+  headStart: {x: 0, y: 0, z: 0}
+  dir: {x: 0, y: 0, z: 0}
   PercentBody: 0.4
   HeadLength: 3

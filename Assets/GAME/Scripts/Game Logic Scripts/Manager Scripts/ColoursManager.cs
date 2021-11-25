@@ -20,7 +20,7 @@ namespace ChessGUI
         public Color SystemAnnotationColor;         // For visualizing possible moves
 
         [Space(10)]
-        public ColorKeyboardShutcut[] ColorModifiers;
+        public ColorShutcut[] ColorModifiers;
 
         public SquareBackgroundColor currentColorName;
         private Color currentColor;
@@ -58,7 +58,7 @@ namespace ChessGUI
             currentColorName = SquareBackgroundColor.COLOR1;
 
             for (int i = 0; i < ColorModifiers.Length; i++)
-			{
+            {
                 if (Input.GetKey(ColorModifiers[i].Key))
                 {
                     currentColor = ColorModifiers[i].Color;

@@ -5,7 +5,7 @@ namespace BitStrap
 {
 	public static class MaterialContextMenu
 	{
-		[MenuItem( "CONTEXT/Material/Select Material" )]
+		[MenuItem( "CONTEXT/Material/Select Material BitStrap" )]
 		public static void SelectMaterial( MenuCommand command )
 		{
 			Selection.activeObject = command.context;

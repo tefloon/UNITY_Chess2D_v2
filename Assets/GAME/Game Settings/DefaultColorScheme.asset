@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 393af4000185c364f8ab98653d378da6, type: 3}
-  m_Name: TestColorSettings
+  m_Name: DefaultColorScheme
   m_EditorClassIdentifier: 
   BoardBackground: {fileID: 8742538545776668643, guid: 8b249d2086081bd479be476bedb8980d, type: 3}
   BoardTintColor: {r: 1, g: 0.8979143, b: 0, a: 1}

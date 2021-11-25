@@ -237,7 +237,6 @@ GameObject:
   - component: {fileID: 851459525}
   - component: {fileID: 851459524}
   - component: {fileID: 851459523}
-  - component: {fileID: 851459526}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -311,18 +310,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &851459526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 851459522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bb528c2f0da32c44a4aba27e4065847, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1056457691
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,7 +430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ColorScheme: {fileID: 11400000, guid: fa5c8817b01734645aca38737ef070e9, type: 2}
-  OverlayColorTransparency: 0.9
+  OverlayColorTransparency: 1
   BoardTintColor: {r: 1, g: 0.8979143, b: 0, a: 1}
   DefaultUserAnnotationColor: {r: 0, g: 0.930851, b: 1, a: 1}
   SystemAnnotationColor: {r: 0, g: 0.5422628, b: 1, a: 1}
@@ -479,11 +466,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b2279cd95db30a40878ddc9668599a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ArrowHeadSize: 6
+  ArrowPrefab: {fileID: 2409791094414910205, guid: 98f8bfff0fde30e4e9ffd7406af635ac, type: 3}
+  ArrowParent: {fileID: 1897399065}
+  ArrowHeadLength: 6
   ArrowMaxWidth: 4
   ArrowBodyPercentage: 0.3
-  ArrowPrefab: {fileID: 2409791094414910205, guid: 98f8bfff0fde30e4e9ffd7406af635ac, type: 3}
-  Arrows: []
+  ArrowOpacity: 0.6
 --- !u!1 &1292136622
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +564,38 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 408936451}
+  - {fileID: 1897399065}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1897399064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1897399065}
+  m_Layer: 0
+  m_Name: Arrows Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1897399065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897399064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1436198951}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

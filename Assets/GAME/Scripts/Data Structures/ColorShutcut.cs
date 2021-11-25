@@ -7,7 +7,7 @@ using Unity.Collections;
 namespace ChessGUI
 {
 	[Serializable]
-	public struct ColorKeyboardShutcut
+	public struct ColorShutcut
 	{
 		public KeyCode Key;
 		public Color Color;

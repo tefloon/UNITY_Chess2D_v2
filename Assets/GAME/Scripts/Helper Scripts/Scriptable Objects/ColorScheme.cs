@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ChessGUI
 {
-	[CreateAssetMenu(menuName = "Game Settings/Color Settings")]
+	[CreateAssetMenu(menuName = "Game Settings/Color Scheme")]
 	public class ColorScheme : ScriptableObject
 	{
 		public Transform BoardBackground;
@@ -14,7 +14,6 @@ namespace ChessGUI
 		public Color DefaultUserAnnotationColor;
 		public Color SystemAnnotationColor;
 
-		public ColorKeyboardShutcut[] ColorModifiers;
+		public ColorShutcut[] ColorModifiers;
 	}
-
 }
