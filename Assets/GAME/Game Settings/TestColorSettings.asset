@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 393af4000185c364f8ab98653d378da6, type: 3}
+  m_Name: TestColorSettings
+  m_EditorClassIdentifier: 
+  BoardBackground: {fileID: 8742538545776668643, guid: 8b249d2086081bd479be476bedb8980d, type: 3}
+  BoardTintColor: {r: 1, g: 0.8979143, b: 0, a: 1}
+  DefaultUserAnnotationColor: {r: 0, g: 0.930851, b: 1, a: 1}
+  SystemAnnotationColor: {r: 0, g: 0.5422628, b: 1, a: 1}
+  ColorModifiers:
+  - Key: 306
+    Color: {r: 0.36470592, g: 0.5176033, b: 0.8666667, a: 1}
+  - Key: 304
+    Color: {r: 1, g: 0.3537736, b: 0.3537736, a: 1}
+  - Key: 308
+    Color: {r: 0.74325806, g: 0.2688679, b: 1, a: 1}

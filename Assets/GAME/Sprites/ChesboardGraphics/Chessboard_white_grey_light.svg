@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 907.1 907.1" style="enable-background:new 0 0 907.1 907.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#8A8989;}
+</style>
+<title>Chessboard_32x32cm_white_blue_v2</title>
+<g id="LightSquares">
+	<rect id="B8" x="113.4" class="st0" width="113.4" height="113.4"/>
+	<rect id="D8" x="340.2" class="st0" width="113.4" height="113.4"/>
+	<rect id="F8" x="566.9" class="st0" width="113.4" height="113.4"/>
+	<rect id="H8" x="793.7" class="st0" width="113.4" height="113.4"/>
+	<rect id="A7" y="113.4" class="st0" width="113.4" height="113.4"/>
+	<rect id="C7" x="226.8" y="113.4" class="st0" width="113.4" height="113.4"/>
+	<rect id="E7" x="453.5" y="113.4" class="st0" width="113.4" height="113.4"/>
+	<rect id="G7" x="680.3" y="113.4" class="st0" width="113.4" height="113.4"/>
+	<rect id="B6" x="113.4" y="226.8" class="st0" width="113.4" height="113.4"/>
+	<rect id="D6" x="340.2" y="226.8" class="st0" width="113.4" height="113.4"/>
+	<rect id="F6" x="566.9" y="226.8" class="st0" width="113.4" height="113.4"/>
+	<rect id="H6" x="793.7" y="226.8" class="st0" width="113.4" height="113.4"/>
+	<rect id="A5" y="340.2" class="st0" width="113.4" height="113.4"/>
+	<rect id="C5" x="226.8" y="340.2" class="st0" width="113.4" height="113.4"/>
+	<rect id="E5" x="453.5" y="340.2" class="st0" width="113.4" height="113.4"/>
+	<rect id="G5" x="680.3" y="340.2" class="st0" width="113.4" height="113.4"/>
+	<rect id="B4" x="113.4" y="453.5" class="st0" width="113.4" height="113.4"/>
+	<rect id="D4" x="340.2" y="453.5" class="st0" width="113.4" height="113.4"/>
+	<rect id="F4" x="566.9" y="453.5" class="st0" width="113.4" height="113.4"/>
+	<rect id="H4" x="793.7" y="453.5" class="st0" width="113.4" height="113.4"/>
+	<rect id="A3" y="566.9" class="st0" width="113.4" height="113.4"/>
+	<rect id="C3" x="226.8" y="566.9" class="st0" width="113.4" height="113.4"/>
+	<rect id="E3" x="453.5" y="566.9" class="st0" width="113.4" height="113.4"/>
+	<rect id="G3" x="680.3" y="566.9" class="st0" width="113.4" height="113.4"/>
+	<rect id="B2" x="113.4" y="680.3" class="st0" width="113.4" height="113.4"/>
+	<rect id="D2" x="340.2" y="680.3" class="st0" width="113.4" height="113.4"/>
+	<rect id="F2" x="566.9" y="680.3" class="st0" width="113.4" height="113.4"/>
+	<rect id="H2" x="793.7" y="680.3" class="st0" width="113.4" height="113.4"/>
+	<rect id="A1" y="793.7" class="st0" width="113.4" height="113.4"/>
+	<rect id="C1" x="226.8" y="793.7" class="st0" width="113.4" height="113.4"/>
+	<rect id="E1" x="453.5" y="793.7" class="st0" width="113.4" height="113.4"/>
+	<rect id="G1" x="680.3" y="793.7" class="st0" width="113.4" height="113.4"/>
+</g>
+<g id="DarkSquares">
+	<rect id="A8" class="st1" width="113.4" height="113.4"/>
+	<rect id="C8" x="226.8" class="st1" width="113.4" height="113.4"/>
+	<rect id="E8" x="453.5" class="st1" width="113.4" height="113.4"/>
+	<rect id="G8" x="680.3" class="st1" width="113.4" height="113.4"/>
+	<rect id="B7" x="113.4" y="113.4" class="st1" width="113.4" height="113.4"/>
+	<rect id="D7" x="340.2" y="113.4" class="st1" width="113.4" height="113.4"/>
+	<rect id="F7" x="566.9" y="113.4" class="st1" width="113.4" height="113.4"/>
+	<rect id="H7" x="793.7" y="113.4" class="st1" width="113.4" height="113.4"/>
+	<rect id="A6" y="226.8" class="st1" width="113.4" height="113.4"/>
+	<rect id="C6" x="226.8" y="226.8" class="st1" width="113.4" height="113.4"/>
+	<rect id="E6" x="453.5" y="226.8" class="st1" width="113.4" height="113.4"/>
+	<rect id="G6" x="680.3" y="226.8" class="st1" width="113.4" height="113.4"/>
+	<rect id="B5" x="113.4" y="340.2" class="st1" width="113.4" height="113.4"/>
+	<rect id="D5" x="340.2" y="340.2" class="st1" width="113.4" height="113.4"/>
+	<rect id="F5" x="566.9" y="340.2" class="st1" width="113.4" height="113.4"/>
+	<rect id="H5" x="793.7" y="340.2" class="st1" width="113.4" height="113.4"/>
+	<rect id="A4" y="453.5" class="st1" width="113.4" height="113.4"/>
+	<rect id="C4" x="226.8" y="453.5" class="st1" width="113.4" height="113.4"/>
+	<rect id="E4" x="453.5" y="453.5" class="st1" width="113.4" height="113.4"/>
+	<rect id="G4" x="680.3" y="453.5" class="st1" width="113.4" height="113.4"/>
+	<rect id="B3" x="113.4" y="566.9" class="st1" width="113.4" height="113.4"/>
+	<rect id="D3" x="340.2" y="566.9" class="st1" width="113.4" height="113.4"/>
+	<rect id="F3" x="566.9" y="566.9" class="st1" width="113.4" height="113.4"/>
+	<rect id="H3" x="793.7" y="566.9" class="st1" width="113.4" height="113.4"/>
+	<rect id="A2" y="680.3" class="st1" width="113.4" height="113.4"/>
+	<rect id="C2" x="226.8" y="680.3" class="st1" width="113.4" height="113.4"/>
+	<rect id="E2" x="453.5" y="680.3" class="st1" width="113.4" height="113.4"/>
+	<rect id="G2" x="680.3" y="680.3" class="st1" width="113.4" height="113.4"/>
+	<rect id="B1" x="113.4" y="793.7" class="st1" width="113.4" height="113.4"/>
+	<rect id="D1" x="340.2" y="793.7" class="st1" width="113.4" height="113.4"/>
+	<rect id="F1" x="566.9" y="793.7" class="st1" width="113.4" height="113.4"/>
+	<rect id="H1" x="793.7" y="793.7" class="st1" width="113.4" height="113.4"/>
+</g>
+</svg>
