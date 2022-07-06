@@ -26,6 +26,8 @@ public class ArrowsManager : Singleton<ArrowsManager>
     [Range(0.1f, 1.0f)]
     [Tooltip("Opacity of the arrow. Color itself is determined globally by Colour Manager.")]
     [SerializeField] private float ArrowOpacity;
+
+    public bool changeHue;
     #endregion
     
     private List<ArrowScript> Arrows = new List<ArrowScript>();

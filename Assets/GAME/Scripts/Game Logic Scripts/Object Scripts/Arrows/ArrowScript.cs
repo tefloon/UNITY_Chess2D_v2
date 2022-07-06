@@ -29,25 +29,26 @@ public class ArrowScript : MonoBehaviour
 		HeadLength = ArrowHeadLength;
 
 		color.a = ArrowOpacity;
+
+		if (ArrowsManager.Instance.changeHue)
+		{
+			float H;
+			float S;
+			float V;
+
+			Color.RGBToHSV(color, out H, out S, out V);
+
+			H += 0.05f;
+
+			color = Color.HSVToRGB(H, S, V);
+		}
+
 		lr.material.color = color;
 		ArrowOrigin = startPosition;
 		ArrowTarget = endPosition;
 
 		UpdateArrow();
 	}	
-	public void CreateArrow_new(Vector3 startPosition, Vector3 endPosition, Color color, float ArrowHeadLength, float ArrowMaxWidth, float ArrowBodyPercentage, float ArrowOpacity)
-	{
-		lr.widthMultiplier = ArrowMaxWidth;
-		PercentBody = ArrowBodyPercentage;
-		HeadLength = ArrowHeadLength;
-
-		color.a = ArrowOpacity;
-		lr.material.color = color;
-		ArrowOrigin = startPosition / BoardBuilder.Instance.BoardScaleFactor;
-		ArrowTarget = endPosition / BoardBuilder.Instance.BoardScaleFactor; 
-
-		UpdateArrow();
-	}
 
 	void UpdateArrow()
 	{
@@ -79,6 +80,21 @@ public class ArrowScript : MonoBehaviour
 			);
 	}
 
+	#region Experimental
+	public void CreateArrow_new(Vector3 startPosition, Vector3 endPosition, Color color, float ArrowHeadLength, float ArrowMaxWidth, float ArrowBodyPercentage, float ArrowOpacity)
+	{
+		lr.widthMultiplier = ArrowMaxWidth;
+		PercentBody = ArrowBodyPercentage;
+		HeadLength = ArrowHeadLength;
+
+		color.a = ArrowOpacity;
+		lr.material.color = color;
+		ArrowOrigin = startPosition / BoardBuilder.Instance.BoardScaleFactor;
+		ArrowTarget = endPosition / BoardBuilder.Instance.BoardScaleFactor; 
+
+		UpdateArrow_new();
+	}
+
 	void UpdateArrow_new()
 	{
 
@@ -108,4 +124,5 @@ public class ArrowScript : MonoBehaviour
 			new Keyframe(1f, 0f)
 			);
 	}
+	#endregion
 }

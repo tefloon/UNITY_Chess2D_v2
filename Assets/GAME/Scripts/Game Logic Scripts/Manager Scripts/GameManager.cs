@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using BitStrap;
 using ChessGUI;
+using static PrecomputeTest;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -15,5 +16,6 @@ public class GameManager : Singleton<GameManager>
     private void Start()
     {
         StartGame();
+        print(knightMoves[4][2]);
     }
 }

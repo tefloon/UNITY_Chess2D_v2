@@ -19,6 +19,8 @@ namespace ChessDebug
 			result.Pieces[Piece.W_QUEEN.ToInt()] = (Bitboard)0x8;
 			result.Pieces[Piece.W_KING.ToInt()] = (Bitboard)0x10;
 
+			//result.Pieces[Piece.W_KING.ToInt()] = 10UL;
+
 			result.Pieces[Piece.B_PAWN.ToInt()] = result.Pieces[Piece.W_PAWN.ToInt()].ReverseBits64();
 			result.Pieces[Piece.B_ROOK.ToInt()] = result.Pieces[Piece.W_ROOK.ToInt()].ReverseBits64();
 			result.Pieces[Piece.B_KNIGHT.ToInt()] = result.Pieces[Piece.W_KNIGHT.ToInt()].ReverseBits64();
